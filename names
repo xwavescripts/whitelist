@@ -1,3 +1,11 @@
+game.Players.PlayerAdded:Connect(function(plr)
+	if plr.Name == "kipycl" then
+		
+	
+	wait(2)
+	if plr.Name == "shiverddadd" then
+ 
+
 wait(10)
 		local lib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/fluxlib.txt")() -- Self explaining
 		
@@ -694,3 +702,6 @@ wait(10)
 		tab:Button("Mod Fly", "shazam v2", function()
 			loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/DaHoodShazamFly"), true))()
 		end)
+end
+end
+end)
